@@ -10,6 +10,7 @@ Make sure you have a recent version of [Node.js installed](https://nodejs.org/en
 
 **Additionally, please have a look at the [CONTRIBUTING.md](./CONTRIBUTING.md) including further information about what counts as a bahn helper.**
 
+
 Fork and clone this repository. Head over to your terminal and run the following command:
 
 ```
