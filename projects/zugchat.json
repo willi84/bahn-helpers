@@ -1,0 +1,28 @@
+{
+  "name": "ZugChat",
+  "desc": "",
+  "url": "https://github.com/yncyrydybyl/zugchat",
+  "type": "projects",
+  
+  "tags": [
+    "Chat",
+    "Helfer"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  "GNU Affero General Public License v3.0"
+  ],
+  "contacts": [
+    "Yan Minagawa"
+  ],
+  "maintainers": [
+    "yncyrydybyl"
+  ],
+  "addedAt": "2020-12-12",
+  "status": "development"
+}
