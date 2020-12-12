@@ -1,0 +1,20 @@
+{
+  "name": "Open Transport Meetup",
+  "desc": "Das Open Transport Meetup vernetzt Interessierte rund ums Thema Open Data und Mobilität, allen voran zur Verbesserung des öffentlichen Nahverkehrs.",
+  "url": "https://github.com/transportkollektiv/meetup/wiki",
+  "type": "meetups",
+  
+  "tags": [
+    "Meetups"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  
+  "addedAt": "2020-12-12"
+}
