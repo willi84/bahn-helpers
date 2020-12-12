@@ -1,0 +1,28 @@
+{
+    "name": "Dystonse",
+    "desc": "interaktiver Reisplaner",
+    "url": "http://hetzner.dystonse.org:3002/",
+    "type": "projects",
+     "links": {
+      
+      "github": "https://github.com/dystonse/dystonse-docker"
+  },
+    "tags": [
+      "OpenData"
+    ],
+    "creators": [
+    ],
+    "no-permission": [
+    ],
+    "permissions": [
+    ],
+    "licenses": [
+    ],
+    
+    "maintainers": [
+      "lenaschimmel", "flauschzelle"
+    ],
+    "addedAt": "2020-12-12",
+    "status": "development"
+  }
+  
