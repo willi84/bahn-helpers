@@ -22,6 +22,38 @@ npm run projects:add
 
 ### Add a new helper
 
+### simply add new json file
+Under projects you find the project-name.json-files. Copy and add the information in your style
+```
+{
+  "name": "My Project",
+  "desc": "",
+  "url": "my-url.org/",
+  "links": {
+      "github": "https://github.com/xxx"
+  },
+  "tags": [
+    "MyTag"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+      "MIT"
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2020-12-12"
+}
+
+```
+
+### By npm
 `npm run projects:add` will ask a few questions and create a file in `helpers/`.
 Commit the changes and [open a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
