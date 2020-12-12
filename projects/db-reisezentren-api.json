@@ -2,6 +2,7 @@
   "name": "Reisezentren-API",
   "desc": "Die Reisezentren API enthält Daten der Verkaufsstellen inkl. Adressen, Koordinaten und Öffnungszeiten. Die Datengrundlage ist Äquivalent zum Datensatz Reisezentren",
   "url": "https://data.deutschebahn.com/dataset/api-reisezentrum",
+  "type": "projects",
   "tags": [
     "DB",
     "Data",

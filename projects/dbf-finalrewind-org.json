@@ -2,6 +2,7 @@
   "name": "DBF",
   "desc": "Web-Abfahrstafel und IRIS-JSON-API",
   "url": "https://dbf.finalrewind.org/",
+  "type": "projects",
   "links": {
     "github": "https://github.com/derf/db-fakedisplay",
     "twitter": "derfnull"

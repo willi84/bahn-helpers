@@ -2,6 +2,7 @@
   "name": "Bahnhof live",
   "desc": "DB Bahnhof live ist ein Produkt der DB Station&Service AG und unterstützt Reisende und Besucher, ihren Aufenthalt an Bahnhöfen so angenehm und effizient wie möglich zu gestalten.",
   "url": "https://gobeta.de/projekte/bahnhof-live-app-open-source/",
+  "type": "projects",
   "links": {
       "twitter": "dbopendata",
       "github": "https://github.com/dbbahnhoflive/dbbahnhoflive-android"

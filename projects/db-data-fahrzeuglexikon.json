@@ -2,6 +2,7 @@
   "name": "DB Data Fahrzeuglexikon",
   "desc": "Das Lexikon stellt in übersichtlicher Form alle kundenrelevanten Daten und Fakten unserer Zug-flotte vor und gibt mit farblich gestalteten Fahrzeuggrundrissen einen visuellen Eindruck in unser Zugangebot.",
   "url": "https://data.deutschebahn.com/dataset/fahrzeuglexikon",
+  "type": "projects",
   "links": {
     "twitter": "dbopendata"
 },

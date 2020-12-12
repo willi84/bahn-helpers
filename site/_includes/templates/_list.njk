@@ -81,7 +81,7 @@
           <ul class="inline-list">
             {% if item.data.ready %}
               <li class="margin-right-xs margin-bottom-s">
-              Data:  
+              📊  
               <div class="w3-container w3-green" style="width:{{ item.data.ready }}; display: inline;">{{ item.data.ready }}</div>
                 
                 </a>
@@ -91,6 +91,27 @@
               <li class="margin-right-xs margin-bottom-s">
               <div class="btn--bubble btn--bubble--stable">
                 {{item.status}}
+              </div>
+              </li>
+            {% endif %}
+            {% if item.type == "events" %}
+              <li class="margin-right-xs margin-bottom-s">
+              <div class="btn--bubble">
+               📅 {{item.type}}
+              </div>
+              </li>
+            {% endif %}
+            {% if item.type == "projects" %}
+              <li class="margin-right-xs margin-bottom-s">
+              <div class="btn--bubble">
+                📁 {{item.type}}
+              </div>
+              </li>
+            {% endif %}
+            {% if item.type == "ideas" %}
+              <li class="margin-right-xs margin-bottom-s">
+              <div class="btn--bubble">
+                💡 {{item.type}}
               </div>
               </li>
             {% endif %}
