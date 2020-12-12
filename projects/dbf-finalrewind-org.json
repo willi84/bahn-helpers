@@ -1,0 +1,30 @@
+{
+  "name": "DBF",
+  "desc": "Web-Abfahrstafel und IRIS-JSON-API",
+  "url": "https://dbf.finalrewind.org/",
+  "links": {
+    "github": "https://github.com/derf/db-fakedisplay",
+    "twitter": "derfnull"
+  },
+  "tags": [
+    "Api",
+    "Abfahrstafel"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+    "BSD-2-Clause"
+  ],
+  "contacts": [
+    "derf"
+  ],
+  "maintainers": [
+    "derf"
+  ],
+  "addedAt": "2020-12-12",
+  "status": "stable"
+}
