@@ -66,8 +66,8 @@
       {% endif %}
       {% if item.contacts.length %}
         <div class="padding-v-m margin-top-auto">
-          <h3 class="fsi-1 margin-bottom-s">Contact</h3>
           <ul class="inline-list">
+          <li><img src="/icons/person.svg" alt="Licenses" loading="lazy" width="15" height="15">&nbsp;</li>
             {% for contact in item.contacts %}
               <li class="{% if loop.index0 %}neg-margin-left-m{% endif %}">
                 {{contact}}
@@ -76,8 +76,30 @@
           </ul>
         </div>
       {% endif %}
-      {% if item.links %}
-        <div class="padding-v-m margin-top-auto">
+     
+       <div class="padding-v-m margin-top-auto">
+          <ul class="inline-list">
+            {% if item.data.ready %}
+              <li class="margin-right-xs margin-bottom-s">
+              <div class="w3-container w3-green" style="width:{{ item.data.ready }}">{{ item.data.ready }}</div>
+                
+                </a>
+              </li>
+            {% endif %}
+            {% if item.licenses.length %}
+              <li class="margin-right-xs margin-bottom-s">
+
+               {% for license in item.licenses %}
+              <img src="/icons/law.svg" alt="Licenses" loading="lazy" width="15" height="15"> <span class="{% if loop.index0 %}neg-margin-left-m{% endif %}">
+                {{license}}
+              </span>
+            {% endfor %}
+                
+                </a>
+              </li>
+            {% endif %}
+          </ul>
+          {% if item.links %}
           <ul class="inline-list">
             {% if item.links.github %}
               <li class="margin-right-xs margin-bottom-s">
@@ -93,9 +115,11 @@
                 </a>
               </li>
             {% endif %}
+           
           </ul>
-        </div>
       {% endif %}
+        </div>
+      
       <a class="btn--full card-link {% if not item.maintainers.length %}margin-top-auto{% endif %}" href="{{ item.url }}?ref=bahn-helpers">Go to {{ item.name }}</a>
     </li>
   {% endfor %}

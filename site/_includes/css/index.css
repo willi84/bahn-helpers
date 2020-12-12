@@ -118,3 +118,12 @@ body {
     display: inline-block;
   }
 }
+.w3-container{
+  width: 50px;
+  padding: 0.01em 16px;
+} 
+.w3-green{
+  color: #fff!important;
+    background-color: #4CAF50!important;
+
+}

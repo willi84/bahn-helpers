@@ -6,6 +6,9 @@
       "swagger": "https://raw.githubusercontent.com/RailwayStations/RSAPI/main/swagger.yaml",
       "github": "https://github.com/RailwayStations"
   },
+  "data": {
+      "ready": "99%"
+  },
   "tags": [
     "RailayStations",
     "Api"
