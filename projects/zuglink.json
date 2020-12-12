@@ -1,0 +1,29 @@
+{
+  "name": "DBF",
+  "desc": "Eindeutige Identifier für Züge.",
+  "url": "http://zuglink.de/track",
+  "type": "projects",
+  "links": {
+    "twitter": "mariusfeldmann"
+  },
+  "tags": [
+    "Züge",
+    "Helfer"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+    "Marius Feldmann"
+  ],
+  "maintainers": [
+    "derf"
+  ],
+  "addedAt": "2020-12-12",
+  "status": "stable"
+}
