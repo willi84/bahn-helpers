@@ -5,7 +5,7 @@ const { getHelpers, writeHelper, getTags } = require('../lib/helpers');
   try {
     const tags = getTags(await getHelpers());
 
-    console.log('Thank you for contributing to tiny-helpers.dev!\n');
+    console.log('Thank you for contributing to bahn-helpers.dev!\n');
     console.log(
       'Let me give you some guidance and tips on how to add a "good helper":\n'
     );
@@ -42,7 +42,7 @@ const { getHelpers, writeHelper, getTags } = require('../lib/helpers');
 
     if (!newHelper.tags || !newHelper.tags.length) {
       throw new Error(
-        'Please define at least one tag for your helper.\nIf no tag fits your helper please open issue to add a new tag.\n👉 https://github.com/stefanjudis/tiny-helpers/issues/new'
+        'Please define at least one tag for your helper.\nIf no tag fits your helper please open issue to add a new tag.\n👉 https://github.com/willi84/bahn-helpers/issues/new'
       );
     }
 

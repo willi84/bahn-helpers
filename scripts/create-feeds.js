@@ -11,21 +11,21 @@ const { toSlug } = require('../lib/slug');
     const feed = new Feed({
       title: 'Tiny Helpers',
       description,
-      id: 'https://tiny-helpers.dev/',
-      link: 'https://tiny-helpers.dev/',
+      id: 'https://bahn-helpers.dev/',
+      link: 'https://bahn-helpers.dev/',
       language: 'en',
       image: 'http://example.com/image.png',
-      favicon: 'https://tiny-helpers.dev/favicon.ico',
-      copyright: `All rights reserved ${new Date().getUTCFullYear()}, Stefan Judis`,
-      generator: 'Feed for tiny-helpers.dev', // optional, default = 'Feed for Node.js'
+      favicon: 'https://bahn-helpers.dev/favicon.ico',
+      copyright: `All rights reserved ${new Date().getUTCFullYear()}, Robert Willemelis`,
+      generator: 'Feed for bahn-helpers.dev', // optional, default = 'Feed for Node.js'
       feedLinks: {
-        atom: 'https://tiny-helpers.dev/feed.atom',
-        rss: 'https://tiny-helpers.dev/feed.xml'
+        atom: 'https://bahn-helpers.dev/feed.atom',
+        rss: 'https://bahn-helpers.dev/feed.xml'
       },
       author: {
-        name: 'Stefan Judis',
-        email: 'stefanjudis@gmail.com',
-        link: 'https://www.stefanjudis.com'
+        name: 'Robert Willemelis',
+        email: 'robert.dev@gmx.de',
+        link: 'http://user.coffee'
       }
     });
 
@@ -39,7 +39,7 @@ const { toSlug } = require('../lib/slug');
           description: desc,
           content: `More tools! 🎉🎉🎉 "${name}" is available at ${url}`,
           date: new Date(addedAt),
-          image: `https://tiny-helpers.dev/screenshots/${toSlug(name)}@1.jpg`
+          image: `https://bahn-helpers.dev/screenshots/${toSlug(name)}@1.jpg`
         });
       });
 

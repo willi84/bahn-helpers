@@ -42,6 +42,10 @@
         <p class="margin-top-s margin-bottom-m">{{ item.desc }}</p>
       </div>
       <div class="p-abs-top-left fsi-0-875 bg-lighter padding-xs z-1">Added {{ item.addedAt | prettyDate }}</div>
+      {% if item.no-permission.length %}
+      <h3 class="fsi-1 margin-bottom-s">No Permissions</h3>
+      <p class="margin-bottom-s">{{item.no-permission}}</p>
+      {% endif %}
       {% if item.maintainers.length %}
         <div class="padding-v-m margin-top-auto">
           <h3 class="fsi-1 margin-bottom-s">Made by</h3>
@@ -60,7 +64,39 @@
           </ul>
         </div>
       {% endif %}
-      <a class="btn--full card-link {% if not item.maintainers.length %}margin-top-auto{% endif %}" href="{{ item.url }}?ref=tiny-helpers">Go to {{ item.name }}</a>
+      {% if item.contacts.length %}
+        <div class="padding-v-m margin-top-auto">
+          <h3 class="fsi-1 margin-bottom-s">Contact</h3>
+          <ul class="inline-list">
+            {% for contact in item.contacts %}
+              <li class="{% if loop.index0 %}neg-margin-left-m{% endif %}">
+                {{contact}}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      {% if item.links %}
+        <div class="padding-v-m margin-top-auto">
+          <ul class="inline-list">
+            {% if item.links.github %}
+              <li class="margin-right-xs margin-bottom-s">
+                <a target="_blank" rel="noopener noreferrer" href="{{item.links.github}}" class="no-underline" aria-label="Repository on GitHub">
+                  <img src="/icons/github.svg" alt="GitHub Repository" loading="lazy" width="15" height="15">
+                </a>
+              </li>
+            {% endif %}
+            {% if item.links.twitter %}
+              <li class="margin-right-xs margin-bottom-s">
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/{{item.links.twitter}}" class="no-underline" aria-label="Twitter Profile">
+                  <img src="/icons/twitter.svg" alt="Twitter Profile" loading="lazy" width="15" height="15">
+                </a>
+              </li>
+            {% endif %}
+          </ul>
+        </div>
+      {% endif %}
+      <a class="btn--full card-link {% if not item.maintainers.length %}margin-top-auto{% endif %}" href="{{ item.url }}?ref=bahn-helpers">Go to {{ item.name }}</a>
     </li>
   {% endfor %}
   </ol>

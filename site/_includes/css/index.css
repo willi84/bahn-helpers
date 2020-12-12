@@ -1,5 +1,6 @@
 @import './_base.css';
 @import './components/_buttons.css';
+@import './components/_carbon.css';
 @import './components/_card.css';
 @import './components/_nav.css';
 @import './components/_skip-link.css';
@@ -16,14 +17,14 @@
 @import './_fonts.css';
 
 body {
-  --primary-color: #405fca;
+  --primary-color: #ca4040;
   --text-color: #484a53;
   --text-highlight-color: #393c42;
   --light-border-color: #d9dfe4;
 
-  --canvas-bg-color: #f5f7ff;
+  --canvas-bg-color: #fff5f5;
   --canvas-light-color: #fafcff;
-  --sidebar-bg-color: #eaefff;
+  --sidebar-bg-color: #fff0ea;
 
   --desktop-sidebar-width: 20em;
   --desktop-topbar-height: 5em;

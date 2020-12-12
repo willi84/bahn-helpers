@@ -1,36 +1,41 @@
 {
   "name": "tiny-helpers",
   "version": "1.0.0",
-  "description": "A collection of free single-purpose online tools for web developers...",
+  "description": "A collection of Bahn related projects, links, apis ...",
   "main": "index.js",
   "scripts": {
     "setup:screenshots": "node ./scripts/create-screenshots.js",
+    "screenshots": "node ./scripts/create-screenshots.js",
     "setup:feeds": "node ./scripts/create-feeds.js",
     "setup": "concurrently \"npm:setup:*\"",
-    "helper:add": "node ./scripts/add-helper.js",
-    "dev": "eleventy --input=./site --serve --port=$PORT",
+    "project:add": "node ./scripts/add-helper.js",
+    "add": "node ./scripts/add-helper.js",
+    "dev": "eleventy --serve --port $PORT",
+    "dev:vercel": "vercel dev",
     "prebuild": "npm run setup",
-    "build": "eleventy --input=./site",
+    "build:old": "eleventy --input=./site",
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'eleventy-gh-demo'",
     "deploy": "npm run build && now --prod"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stefanjudis/tiny-helpers.git"
+    "url": "git+https://github.com/willi84/bahn-helpers.git"
   },
   "engines": {
     "node": "^12.14.0"
   },
   "keywords": [],
-  "author": "stefan judis <stefanjudis@gmail.com>",
+  "author": "Robert Willemelis <robert.dev@gmx.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stefanjudis/tiny-helpers/issues"
+    "url": "https://github.com/willi84/bahn-helpers/issues"
   },
-  "homepage": "https://github.com/stefanjudis/tiny-helpers#readme",
+  "homepage": "https://github.com/willi84/bahn-helpers#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
     "chrome-aws-lambda": "^2.1.1",
     "concurrently": "^5.1.0",
+    "copy-dir": "^1.3.0",
     "feed": "^4.1.0",
     "got": "^10.7.0",
     "html-minifier": "^4.0.0",
@@ -42,10 +47,12 @@
     "postcss-clean": "^1.1.0",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",
+    "puppeteer": "^2.1.1",
     "puppeteer-core": "^2.1.1",
     "slugify": "^1.4.0",
-    "terser": "^4.6.7",
-    "puppeteer": "^2.1.1"
+    "terser": "^4.6.7"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "vercel": "^19.1.1"
+  }
 }

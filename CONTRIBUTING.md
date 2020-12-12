@@ -1,22 +1,22 @@
-# Criteria to add a new tiny helper
+# Criteria to add a new bahn helper
 
 - ❗ **Please only add one (!) new helper per pull request.** This will speed up the review and merge process.
 
 - ❗ **Please have a look at open PRs and issues.** There might be the chance that someone else opened a PR with your tool already. :) 
 
-## What does count as a tiny helper?
+## What does count as a bahn helper?
 
 > A collection of free single-purpose online tools for web developers...
 
-- A tiny helper is any website or web application that developers could open and use while developing for the web. Tiny helpers solve and help with common problems such as code formatting, design, code generation, and much more. :)
-- A tiny helper does not have to be available on GitHub and has not to be open source.
-- A tiny helper can be used right away.
+- A bahn helper is any website or web application that developers could open and use while developing for the web. Tiny helpers solve and help with common problems such as code formatting, design, code generation, and much more. :)
+- A bahn helper does not have to be available on GitHub and has not to be open source.
+- A bahn helper can be used right away.
 - **It has to be useful, that's all.** 🎉
 
-## What does not(!) count as a tiny helper?
+## What does not(!) count as a bahn helper?
 
 - **APIs** (it's too hard to make the decision which API should go in and which should not)
-- **JS or CSS libraries / npm modules** (tiny-helpers.dev is about online resources)
+- **JS or CSS libraries / npm modules** (bahn-helpers.dev is about online resources)
 - **learning sites/apps** that have a purely educational purpose (tiny helpers continue to have value as a developer)
 - **plugins for other online tools**
 - **tools behind a login**
@@ -56,7 +56,7 @@ To sum it up – your JSON addition should look as follows:
 ```json
 {
   "name": "A new helper",
-  "desc": "Add a new helper to tiny-helpers.dev",
+  "desc": "Add a new helper to bahn-helpers.dev",
   "url": "https://some.url",
   "tags": ["Misc"],
   "maintainers": ["PersonA"],
