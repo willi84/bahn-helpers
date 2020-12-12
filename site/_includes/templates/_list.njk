@@ -81,8 +81,7 @@
           <ul class="inline-list">
             {% if item.data.ready %}
               <li class="margin-right-xs margin-bottom-s">
-              📊  
-              <div class="w3-container w3-green" style="width:{{ item.data.ready }}; display: inline;">{{ item.data.ready }}</div>
+              <div class="w3-container w3-green" style="width:{{ item.data.ready }}; display: inline;">📊 {{ item.data.ready }}</div>
                 
                 </a>
               </li>
@@ -94,27 +93,7 @@
               </div>
               </li>
             {% endif %}
-            {% if item.type == "events" %}
-              <li class="margin-right-xs margin-bottom-s">
-              <div class="btn--bubble">
-               📅 {{item.type}}
-              </div>
-              </li>
-            {% endif %}
-            {% if item.type == "projects" %}
-              <li class="margin-right-xs margin-bottom-s">
-              <div class="btn--bubble">
-                📁 {{item.type}}
-              </div>
-              </li>
-            {% endif %}
-            {% if item.type == "ideas" %}
-              <li class="margin-right-xs margin-bottom-s">
-              <div class="btn--bubble">
-                💡 {{item.type}}
-              </div>
-              </li>
-            {% endif %}
+            
             {% if item.licenses.length %}
               <li class="margin-right-xs margin-bottom-s">
 
@@ -148,8 +127,21 @@
           </ul>
       {% endif %}
         </div>
+      <div style="margin-left: 10px">
+      {% if item.type == "events" %}
+               📅 {{item.type}}
+            {% endif %}
+            {% if item.type == "projects" %}
+                📁 {{item.type}}
+            {% endif %}
+            {% if item.type == "ideas" %}
+                💡 {{item.type}}
+            {% endif %}
       
-      <a class="btn--full card-link {% if not item.maintainers.length %}margin-top-auto{% endif %}" href="{{ item.url }}?ref=bahn-helpers">Go to {{ item.name }}</a>
+            </div>
+      <a class="btn--full card-link {% if not item.maintainers.length %}margin-top-auto{% endif %}" href="{{ item.url }}?ref=bahn-helpers">
+      
+      Go to {{ item.name }}</a>
     </li>
   {% endfor %}
   </ol>
