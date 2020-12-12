@@ -30,4 +30,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./_site
-          github_token: ${{ secrets.BAHN_HELPERS }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
