@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tiny Helpers</title>
+        <link>https://bahn-helpers.dev/</link>
+        <description>A collection of Bahn related projects, links, apis ...</description>
+        <lastBuildDate>Sat, 12 Dec 2020 00:19:46 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for bahn-helpers.dev</generator>
+        <language>en</language>
+        <image>
+            <title>Tiny Helpers</title>
+            <url>http://example.com/image.png</url>
+            <link>https://bahn-helpers.dev/</link>
+        </image>
+        <copyright>All rights reserved 2020, Robert Willemelis</copyright>
+        <atom:link href="https://bahn-helpers.dev/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[New helper added: Reisezentren-API – Die Reisezentren API enthält Daten der Verkaufsstellen inkl. Adressen, Koordinaten und Öffnungszeiten. Die Datengrundlage ist Äquivalent zum Datensatz Reisezentren.]]></title>
+            <link>https://data.deutschebahn.com/dataset/api-reisezentrum</link>
+            <guid>reisezentren-api</guid>
+            <pubDate>Fri, 11 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Die Reisezentren API enthält Daten der Verkaufsstellen inkl. Adressen, Koordinaten und Öffnungszeiten. Die Datengrundlage ist Äquivalent zum Datensatz Reisezentren]]></description>
+            <content:encoded><![CDATA[More tools! 🎉🎉🎉 "Reisezentren-API" is available at https://data.deutschebahn.com/dataset/api-reisezentrum]]></content:encoded>
+            <enclosure url="https://bahn-helpers.dev/screenshots/reisezentren-api@1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[New helper added: DB Data Fahrzeuglexikon – Das Lexikon stellt in übersichtlicher Form alle kundenrelevanten Daten und Fakten unserer Zug-flotte vor und gibt mit farblich gestalteten Fahrzeuggrundrissen einen visuellen Eindruck in unser Zugangebot..]]></title>
+            <link>https://data.deutschebahn.com/dataset/fahrzeuglexikon</link>
+            <guid>db-data-fahrzeuglexikon</guid>
+            <pubDate>Fri, 11 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Das Lexikon stellt in übersichtlicher Form alle kundenrelevanten Daten und Fakten unserer Zug-flotte vor und gibt mit farblich gestalteten Fahrzeuggrundrissen einen visuellen Eindruck in unser Zugangebot.]]></description>
+            <content:encoded><![CDATA[More tools! 🎉🎉🎉 "DB Data Fahrzeuglexikon" is available at https://data.deutschebahn.com/dataset/fahrzeuglexikon]]></content:encoded>
+            <enclosure url="https://bahn-helpers.dev/screenshots/db-data-fahrzeuglexikon@1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[New helper added: Bahnhof live – DB Bahnhof live ist ein Produkt der DB Station&Service AG und unterstützt Reisende und Besucher, ihren Aufenthalt an Bahnhöfen so angenehm und effizient wie möglich zu gestalten..]]></title>
+            <link>https://gobeta.de/projekte/bahnhof-live-app-open-source/</link>
+            <guid>bahnhof-live</guid>
+            <pubDate>Fri, 11 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[DB Bahnhof live ist ein Produkt der DB Station&Service AG und unterstützt Reisende und Besucher, ihren Aufenthalt an Bahnhöfen so angenehm und effizient wie möglich zu gestalten.]]></description>
+            <content:encoded><![CDATA[More tools! 🎉🎉🎉 "Bahnhof live" is available at https://gobeta.de/projekte/bahnhof-live-app-open-source/]]></content:encoded>
+            <enclosure url="https://bahn-helpers.dev/screenshots/bahnhof-live@1.jpg"/>
+        </item>
+    </channel>
+</rss>
