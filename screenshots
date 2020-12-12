@@ -1,0 +1,22 @@
+
+> tiny-helpers@1.0.0 setup C:\Users\rwill\Documents\dev\2020\tiny-helpers
+> concurrently "npm:setup:*"
+
+[setup:feeds] 
+[setup:feeds] > tiny-helpers@1.0.0 setup:feeds C:\Users\rwill\Documents\dev\2020\tiny-helpers
+[setup:feeds] > node ./scripts/create-feeds.js
+[setup:feeds] 
+[setup:screenshots] 
+[setup:screenshots] > tiny-helpers@1.0.0 setup:screenshots C:\Users\rwill\Documents\dev\2020\tiny-helpers
+[setup:screenshots] > node ./scripts/create-screenshots.js
+[setup:screenshots] 
+[setup:feeds] Writing rss feed
+[setup:feeds] npm run setup:feeds exited with code 0
+[setup:screenshots] Taking screenshots...
+[setup:screenshots] ✅ Bahnhof live at https://gobeta.de/projekte/bahnhof-live-app-open-source/
+[setup:screenshots] ✅ DB Data Fahrzeuglexikon at https://data.deutschebahn.com/dataset/fahrzeuglexikon
+[setup:screenshots] ✅ Reisezentren-API at https://data.deutschebahn.com/dataset/api-reisezentrum
+[setup:screenshots] 📸 DBF at https://dbf.finalrewind.org/
+[setup:screenshots] 📸 Railway Stations at https://map.railway-stations.org/
+[setup:screenshots] 📸 Lightened Free Seat Finder at https://github.com/willi84/MEGA/blob/master/projects/01_boarding_free_seat/readme.md
+[setup:screenshots] npm run setup:screenshots exited with code 0

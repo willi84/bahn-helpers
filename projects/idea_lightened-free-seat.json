@@ -1,0 +1,27 @@
+{
+  "name": "Lightened Free Seat Finder",
+  "desc": "Show free seats with a light like free flats with blue light",
+  "url": "https://github.com/willi84/MEGA/blob/master/projects/01_boarding_free_seat/readme.md",
+  "links": {
+      "twitter": "robertSPD",
+      "github": "https://github.com/willi84/MEGA/blob/master/projects/01_boarding_free_seat/readme.md"
+  },
+  "type": "ideas",
+  "tags": [
+    "Ideas"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+      "MIT"
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2020-12-11"
+}

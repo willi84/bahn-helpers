@@ -81,9 +81,17 @@
           <ul class="inline-list">
             {% if item.data.ready %}
               <li class="margin-right-xs margin-bottom-s">
-              <div class="w3-container w3-green" style="width:{{ item.data.ready }}">{{ item.data.ready }}</div>
+              Data:  
+              <div class="w3-container w3-green" style="width:{{ item.data.ready }}; display: inline;">{{ item.data.ready }}</div>
                 
                 </a>
+              </li>
+            {% endif %}
+            {% if item.status %}
+              <li class="margin-right-xs margin-bottom-s">
+              <div class="btn--bubble btn--bubble--stable">
+                {{item.status}}
+              </div>
               </li>
             {% endif %}
             {% if item.licenses.length %}

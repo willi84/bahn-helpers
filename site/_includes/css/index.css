@@ -127,3 +127,7 @@ body {
     background-color: #4CAF50!important;
 
 }
+.btn--bubble--stable{
+  background-color: green;
+  color: white
+}
