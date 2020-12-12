@@ -32,7 +32,6 @@ Under projects you find the project-name.json-files. Copy and add the informatio
   "links": {
       "github": "https://github.com/xxx"
   },
-  
   "licenses": [
       "MIT"
   ],
