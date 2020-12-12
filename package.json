@@ -1,13 +1,15 @@
 {
   "name": "tiny-helpers",
   "version": "1.0.0",
-  "description": "A collection of free single-purpose online tools for web developers...",
+  "description": "A collection of Bahn related projects, links, apis ...",
   "main": "index.js",
   "scripts": {
     "setup:screenshots": "node ./scripts/create-screenshots.js",
+    "screenshots": "node ./scripts/create-screenshots.js",
     "setup:feeds": "node ./scripts/create-feeds.js",
     "setup": "concurrently \"npm:setup:*\"",
-    "helper:add": "node ./scripts/add-helper.js",
+    "project:add": "node ./scripts/add-helper.js",
+    "add": "node ./scripts/add-helper.js",
     "dev": "eleventy --serve --port $PORT",
     "dev:vercel": "vercel dev",
     "prebuild": "npm run setup",
@@ -16,18 +18,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stefanjudis/tiny-helpers.git"
+    "url": "git+https://github.com/willi84/bahn-helpers.git"
   },
   "engines": {
     "node": "^12.14.0"
   },
   "keywords": [],
-  "author": "stefan judis <stefanjudis@gmail.com>",
+  "author": "Robert Willemelis <robert.dev@gmx.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stefanjudis/tiny-helpers/issues"
+    "url": "https://github.com/willi84/bahn-helpers/issues"
   },
-  "homepage": "https://github.com/stefanjudis/tiny-helpers#readme",
+  "homepage": "https://github.com/willi84/bahn-helpers#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
     "chrome-aws-lambda": "^2.1.1",

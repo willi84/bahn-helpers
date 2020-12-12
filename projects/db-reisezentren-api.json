@@ -1,0 +1,32 @@
+{
+  "name": "Reisezentren-API",
+  "desc": "Die Reisezentren API enthält Daten der Verkaufsstellen inkl. Adressen, Koordinaten und Öffnungszeiten. Die Datengrundlage ist Äquivalent zum Datensatz Reisezentren",
+  "url": "https://data.deutschebahn.com/dataset/api-reisezentrum",
+  "tags": [
+    "DB",
+    "Data",
+    "OpenData",
+    "Koordinaten",
+    "Öffnungszeiten",
+    "Reisezentrum",
+    "Stammdaten",
+    "REST"
+  ],
+  "creators": [
+    ["Daten:", "Deutsche Bahn AG"]
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+    "CC BY 4.0"
+  ],
+  "licenses": [
+      "CC BY 4.0"
+  ],
+  "contacts": [
+    "Michael Binzen"
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2020-12-11"
+}

@@ -1,10 +1,10 @@
 const got = require('got');
 
-const IGNORED_CONTRIBUTORS = ['stefanjudis', 'github-actions[bot]'];
+const IGNORED_CONTRIBUTORS = ['willi84', 'github-actions[bot]'];
 
 async function fetchContributors({ page = 1, options }) {
   const response = await got({
-    url: `https://api.github.com/repos/stefanjudis/tiny-helpers/contributors?per_page=100&page=${page}`,
+    url: `https://api.github.com/repos/willi84/bahn-helpers/contributors?per_page=100&page=${page}`,
     ...options,
   });
 
@@ -44,6 +44,6 @@ module.exports = async function () {
       return [];
     }
   } else {
-    return ['stefanjudis', 'stefanjudis', 'stefanjudis'];
+    return ['willi84', 'willi84', 'willi84'];
   }
 };

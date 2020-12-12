@@ -1,0 +1,36 @@
+{
+  "name": "DB Data Fahrzeuglexikon",
+  "desc": "Das Lexikon stellt in übersichtlicher Form alle kundenrelevanten Daten und Fakten unserer Zug-flotte vor und gibt mit farblich gestalteten Fahrzeuggrundrissen einen visuellen Eindruck in unser Zugangebot.",
+  "url": "https://data.deutschebahn.com/dataset/fahrzeuglexikon",
+  "links": {
+    "twitter": "dbopendata"
+},
+  "tags": [
+    "DB",
+    "Data",
+    "Fernverkehr",
+    "Zug",
+    "PDF"
+  ],
+  "creators": [
+    ["Texte/Daten:", "Deutsche Bahn AG"],
+    ["Grafiken (Grundrisse und Ansichten)", "Seemanngrafik d.i.p. im Auftrag der Deutschen Bahn AG"],
+    ["Texte und Grafiken (Grundrisse und Ansichten) aus dem PDF „Fahrzeuglexikon“", "Seemanngrafik d.i.p. im Auftrag der Deutschen Bahn AG"]
+  ],
+  "no-permission": [
+    "DB-Logos, Schriften, Fotos und Piktogramme"
+  ],
+  "permissions": [
+    "mixed",
+    ["Texte und Grafiken (Grundrisse und Ansichten) aus dem PDF „Fahrzeuglexikon“", "Creative Commons Attribution 4.0 International (CC BY 4.0)"],
+    ["DB-Logos, Schriften, Fotos und Piktogramme", "Weiterverwendung durch Dritte ausgeschlossen und nicht als Open Data freigegeben!"]
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+    "Adrian Wagner"
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2020-12-11"
+}
