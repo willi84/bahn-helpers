@@ -13,7 +13,8 @@
     "dev": "eleventy --serve --port $PORT",
     "dev:vercel": "vercel dev",
     "prebuild": "npm run setup",
-    "build": "eleventy --input=./site",
+    "build:old": "eleventy --input=./site",
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'eleventy-gh-demo'",
     "deploy": "npm run build && now --prod"
   },
   "repository": {
