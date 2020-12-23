@@ -1,0 +1,16 @@
+{
+  "name": "Servicepoints in Switzerland",
+  "desc": "get all 30'000 Servicepoints and other information about Public Transport in Switzerland",
+  "url": "https://developer.sbb.ch/apis/servicepoints/information",
+  "links": {
+      "github": "https://github.com/xxx"
+  },
+  "licenses": [
+      "https://developer.sbb.ch/license"
+  ],
+  "contacts": [data@sbb.ch
+  ],
+  "maintainers": [SBB
+  ],
+  "addedAt": "2020-12-23"
+}
