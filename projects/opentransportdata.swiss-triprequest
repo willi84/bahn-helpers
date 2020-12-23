@@ -1,0 +1,13 @@
+{
+  "name": "Triprequests in Switzerland based on OJP",
+  "desc": "make timetable search in switzerland",
+  "url": "https://opentransportdata.swiss/de/dataset/fahrtprognose",
+    "licenses": [
+      https://opentransportdata.swiss/de/terms-of-use/"
+  ],
+  "contacts": [opendata@sbb.ch
+  ],
+  "maintainers": [SBB
+  ],
+  "addedAt": "2020-12-23"
+}
