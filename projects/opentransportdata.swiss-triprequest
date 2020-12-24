@@ -2,6 +2,7 @@
   "name": "Triprequests in Switzerland based on OJP",
   "desc": "make timetable search in switzerland",
   "url": "https://opentransportdata.swiss/de/dataset/fahrtprognose",
+  "type": "projects",
     "licenses": [
       https://opentransportdata.swiss/de/terms-of-use/"
   ],
