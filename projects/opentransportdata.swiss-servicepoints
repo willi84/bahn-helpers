@@ -10,6 +10,9 @@
       "https://developer.sbb.ch/license"
   ],
   "contacts": ["data@sbb.ch"],
+  "tags": [
+    "SBB"
+  ],
   "maintainers": ["SBB"],
   "addedAt": "2020-12-23"
 }
