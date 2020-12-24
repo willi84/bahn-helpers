@@ -5,9 +5,7 @@
     "licenses": [
       https://opentransportdata.swiss/de/terms-of-use/"
   ],
-  "contacts": [opendata@sbb.ch
-  ],
-  "maintainers": [SBB
-  ],
+  "contacts": ["opendata@sbb.ch"],
+  "maintainers": ["SBB"],
   "addedAt": "2020-12-23"
 }
