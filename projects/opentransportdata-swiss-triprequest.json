@@ -4,7 +4,7 @@
   "url": "https://opentransportdata.swiss/de/dataset/fahrtprognose",
   "type": "projects",
     "licenses": [
-      https://opentransportdata.swiss/de/terms-of-use/"
+      "https://opentransportdata.swiss/de/terms-of-use/"
   ],
   "contacts": ["opendata@sbb.ch"],
   "tags": [
