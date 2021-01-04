@@ -1,0 +1,18 @@
+{
+    "name": "MOTIS Project",
+    "desc": "MOTIS is an intermodal travel information system that supports GTFS Real-Time. It is open source and provides a HTTP JSON API, web and Android app.",
+    "url": "https://motis-project.de",
+    "type": "projects",
+    "links": {
+      "github": "https://github.com/motis-project/motis",
+      "twitter": "https://twitter.com/motisproject"
+  	},
+    "tags": [ "routing", "intermodal", "real-time", "HRD", "GTFS" ],
+    "creators": [],
+    "no-permission": [],
+    "permissions": [],
+    "licenses": [ "MIT" ],
+    "maintainers": [ "felixguendling", "pablohoch" ],
+    "addedAt": "2021-01-03",
+    "status": "stable"
+}
