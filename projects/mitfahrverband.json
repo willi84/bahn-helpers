@@ -1,0 +1,24 @@
+{
+  "name": "Mitfahrverband",
+  "desc": "Willkommen auf der Webseite des Bundesverbandes Mitfahren e.V. in Gründung. Wir fördern das gemeinsame Fahren und damit die bessere Auslastung von Fahrzeugen für weniger Emissionen, Staus und Kosten und damit die nachhaltige Mobilitätswende.",
+  "url": "https://mitfahrverband.org/",
+  "type": "projects",
+  "links": { 
+  },
+  "tags": [
+    "Vereine"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [ 
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2021-01-27"
+}
