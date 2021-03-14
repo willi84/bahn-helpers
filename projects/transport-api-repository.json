@@ -1,0 +1,27 @@
+{
+  "name": "Transport API Repository",
+  "desc": "Machine-readable list of (public) transport API endpoints.",
+  "url": "https://github.com/public-transport/transport-apis",
+  "type": "projects",
+  "links": {
+    "github": "https://github.com/public-transport/transport-apis"
+  },
+  "tags": [
+    "Api"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+    "CC0-1.0"
+  ],
+  "contacts": [],
+  "maintainers": [
+    "derf", "derhuerst", "vkrause"
+  ],
+  "addedAt": "2021-03-12",
+  "status": "development"
+}
