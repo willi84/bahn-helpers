@@ -1,0 +1,16 @@
+{
+  "name": "MobiData BW",
+  "desc": "MobiData BW - Daten und Dienste rund um Mobilität in Baden-Württemberg",
+  "url": "https://www.mobidata-bw.de/",
+  "type": "projects",
+  "tags": [
+    "services"
+  ],
+  "licenses": [
+      "DL-DE->BY-2.0"
+  ],
+  "contacts": [
+"mobidata-bw@nvbw.de"
+  ],
+  "addedAt": "2021-03-12"
+}
