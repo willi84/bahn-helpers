@@ -1,7 +1,7 @@
 {
   "name": "DB Fernverkehr-Zugbildungsplan als JSON",
   "desc": "Maschinenlesbare JSON-Beschreibung des von DB Fernverkehr veröffentlichten Zugbildungsplans",
-  "url": "https://lib.finalrewind.org/dbdb/db_zugbildung_latest.json",
+  "url": "https://github.com/derf/db-zugbildung-to-json",
   "type": "projects",
   "links": {
     "github": "https://github.com/derf/db-zugbildung-to-json",
