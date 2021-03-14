@@ -1,11 +1,10 @@
 {
-  "name": "tiny-helpers",
+  "name": "bahn-helpers",
   "version": "1.0.0",
   "description": "A collection of Bahn related projects, links, apis ...",
   "main": "index.js",
   "scripts": {
     "setup:screenshots": "node ./scripts/create-screenshots.js",
-    "screenshots": "node ./scripts/create-screenshots.js",
     "setup:feeds": "node ./scripts/create-feeds.js",
     "setup": "concurrently \"npm:setup:*\"",
     "project:add": "node ./scripts/add-helper.js",
@@ -13,8 +12,8 @@
     "dev": "eleventy --serve --port $PORT",
     "dev:vercel": "vercel dev",
     "prebuild": "npm run setup",
-    "build:old": "eleventy --input=./site",
-    "build": "env NODE_ENV=production npx eleventy --pathprefix 'eleventy-gh-demo'",
+    "build": "eleventy --input=./site",
+    "build:old": "env NODE_ENV=production npx eleventy --pathprefix 'eleventy-gh-demo'",
     "deploy": "npm run build && now --prod"
   },
   "repository": {
