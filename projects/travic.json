@@ -1,0 +1,26 @@
+{
+  "name": "TRAVIC",
+  "desc": "Transit Visualization Client",
+  "url": "https://tracker.geops.ch",
+  "type": "App",
+  "links": {
+      "twitter": "geOps",
+      "feeds": "https://tracker.geops.ch/feeds/"
+  },
+  "tags": [
+    "project"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2021-06-02"
+}

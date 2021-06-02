@@ -1,0 +1,24 @@
+{
+  "name": "GTFS Real-Time Inspector",
+  "desc": "",
+  "url": "https://public-transport.github.io/gtfs-rt-inspector/",
+  "type": "project",
+  "links": {
+  },
+  "tags": [
+    "project"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2021-06-02"
+}

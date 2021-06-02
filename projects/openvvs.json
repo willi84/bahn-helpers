@@ -1,0 +1,24 @@
+{
+  "name": "VVS Open Data Portal",
+  "desc": "Auf diesem Portal stellt der Verkehrs- und Tarifverbund Stuttgart (VVS) einen wachsenden Datenbestand zu den Themen Mobilität und Verkehr zur Verfügung",
+  "url": "https://www.openvvs.de/",
+  "type": "Project",
+  "links": {
+  },
+  "tags": [
+    "project"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2021-06-02"
+}

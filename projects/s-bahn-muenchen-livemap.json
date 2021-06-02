@@ -1,0 +1,25 @@
+{
+  "name": "S-Bahn München - Live Map",
+  "desc": "Auf der Karte sehen Sie die Position unserer Züge in Echtzeit.",
+  "url": "https://www.s-bahn-muenchen.de/fahrplan/live-map",
+  "type": "Website",
+  "links": {
+  },
+  "tags": [
+    "website",
+    "live-map"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2021-06-02"
+}

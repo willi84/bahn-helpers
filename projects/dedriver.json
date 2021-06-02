@@ -1,0 +1,25 @@
+{
+  "name": "Dede",
+  "desc": " Dede ist eine freie, unabhängige und universelle Echtzeit-Karte",
+  "url": "https://dedriver.org/",
+  "type": "App",
+  "links": {
+      "github": "https://github.com/dancesWithCycles/dede-front-end"
+  },
+  "tags": [
+    "app"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2021-06-02"
+}

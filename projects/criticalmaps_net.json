@@ -1,0 +1,26 @@
+{
+  "name": "Critical Maps",
+  "desc": "Eine Open Source App für Android und iOS zur Organisation der weltweit stattfindenden Critical Mass.",
+  "url": "https://www.criticalmaps.net",
+  "type": "App",
+  "links": {
+      "twitter": "criticalmaps",
+      "github": "https://github.com/criticalmaps"
+  },
+  "tags": [
+    "app"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2021-06-02"
+}

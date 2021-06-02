@@ -1,0 +1,25 @@
+{
+  "name": "Match Rider Fahrplantool",
+  "desc": "Das Match Rider Fahrplantool wurde für die Integration von Linienverkehren in die Elektronische Fahrplanauskunft",
+  "url": "https://www.matchridergo.de/fahrplantool/#UBERBLICK_F",
+  "type": "Tool",
+  "links": {
+      "twitter": "MatchRider"
+  },
+  "tags": [
+    "tool"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2021-06-02"
+}
