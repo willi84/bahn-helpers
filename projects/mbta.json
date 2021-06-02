@@ -1,15 +1,14 @@
 {
-  "name": "MBTA",
+  "name": "MBTA Home Page",
   "desc": "MBTA Home Page Massachusetts BayTransportation Authority",
   "url": "https://www.mbta.com/",
-  "type": "Website",
+  "type": "organization",
   "links": {
       "twitter": "MBTA",
       "gtfs": "https://www.mbta.com/developers/gtfs-realtime"
   },
   "tags": [
-    "website",
-    "gtfs"
+    "website"
   ],
   "creators": [
   ],
