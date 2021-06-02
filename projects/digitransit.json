@@ -1,0 +1,25 @@
+{
+  "name": "digitransit",
+  "desc": "The next generation journey planner. Contribute and leave your mark!",
+  "url": "https://digitransit.fi/en/",
+  "type": "app",
+  "links": {
+    "api": "https://digitransit.fi/en/developers/apis/4-realtime-api/"
+  },
+  "tags": [
+    "App"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2021-06-02"
+}

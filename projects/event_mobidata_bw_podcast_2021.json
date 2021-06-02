@@ -1,0 +1,22 @@
+{
+  "name": "MobiData BW Podcast",
+  "desc": "MobiData BW Podcast - Mit Daten klimafreundliche Mobilität voranbringen ",
+  "url": "https://redcircle.com/shows/mobidata-bw-podcast",
+  "type": "events",
+  "tags": [
+    "events"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2021-06-02"
+}

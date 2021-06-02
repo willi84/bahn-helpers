@@ -1,0 +1,32 @@
+{
+  "name": "GTFS Realtime Feed",
+  "desc": "Unofficial GTFS Realtime feed for Berlin & Brandenburg",
+  "url": "https://v0.berlin-gtfs-rt.transport.rest",
+  "type": "projects",
+  "links": {
+    "github": "https://github.com/derhuerst/berlin-gtfs-rt-server",
+    "twitter": "derfnull"
+  },
+  "tags": [
+    "Projekte",
+    "GTFS",
+    "Berlin",
+    "Brandenburg"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+    "License Zero Prosperity 3.0.0 and contributions are licensed under Apache 2."
+  ],
+  "contacts": [
+    "derhuerst"
+  ],
+  "maintainers": [
+    "derhuerst"
+  ],
+  "addedAt": "2021-06-02"
+}

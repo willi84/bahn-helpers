@@ -1,0 +1,27 @@
+{
+  "name": "mobility data",
+  "desc": "The one-stop organization for mobility data standards",
+  "url": "https://mobilitydata.org/",
+  "type": "organization",
+  "links": {
+    "github": "https://github.com/MobilityData",
+    "twitter": "mobilitydataio"
+  },
+  "tags": [
+    "Projekte",
+    "Organization"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2021-06-02"
+}

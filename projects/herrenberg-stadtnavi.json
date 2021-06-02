@@ -1,0 +1,26 @@
+{
+  "name": "stadtnavi Herrenberg",
+  "desc": "Das Modellprojekt für vernetzte Mobilität in Herrenberg",
+  "url": "https://herrenberg.stadtnavi.de/",
+  "type": "projects",
+  "links": {
+      "beta": "https://herrenberg.beta.stadtnavi.eu/"
+  },
+  "tags": [
+    "Projects",
+    "Map"
+  ],
+  "creators": [
+  ],
+  "no-permission": [
+  ],
+  "permissions": [
+  ],
+  "licenses": [
+  ],
+  "contacts": [
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2021-06-02"
+}
